@@ -1,0 +1,18 @@
+﻿ 
+ 用企业类库来完成缓存：
+ 需要引用： Microsoft.Practices.EnterpriseLibrary.Caching.dll
+ 配置文件如下： 
+
+<configSections>
+		<section name="cachingConfiguration" type="Microsoft.Practices.EnterpriseLibrary.Caching.Configuration.CacheManagerSettings, Microsoft.Practices.EnterpriseLibrary.Caching" requirePermission="false"/>
+</configSections>
+
+<cachingConfiguration defaultCacheManager="DefaultCacheManager">
+		<cacheManagers>
+			<add name="DefaultCacheManager" type="Microsoft.Practices.EnterpriseLibrary.Caching.CacheManager, Microsoft.Practices.EnterpriseLibrary.Caching" expirationPollFrequencyInSeconds="60" maximumElementsInCacheBeforeScavenging="1000" numberToRemoveWhenScavenging="10" backingStoreName="NullBackingStore"/>
+		</cacheManagers>
+		<backingStores>
+			<add type="Microsoft.Practices.EnterpriseLibrary.Caching.BackingStoreImplementations.NullBackingStore, Microsoft.Practices.EnterpriseLibrary.Caching" name="NullBackingStore"/>
+		</backingStores>
+</cachingConfiguration>
+

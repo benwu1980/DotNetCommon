@@ -1,0 +1,14 @@
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.WebTest\bin\resourceSet.xml
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.WebTest\bin\DotNetCommon.WebTest.dll
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.WebTest\bin\DotNetCommon.WebTest.pdb
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.WebTest\bin\DotNetCommon.dll
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.WebTest\bin\log4net.dll
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.WebTest\bin\DotNetCommon.pdb
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.WebTest\obj\Debug\DotNetCommon.WebTest.csprojResolveAssemblyReference.cache
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.WebTest\obj\Debug\DotNetCommon.WebTest.dll
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.WebTest\obj\Debug\DotNetCommon.WebTest.pdb
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.WebTest\bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.WebTest\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.WebTest\bin\Microsoft.Practices.ServiceLocation.dll
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.WebTest\bin\Microsoft.Practices.Unity.dll
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.WebTest\bin\Microsoft.Practices.Unity.Interception.dll

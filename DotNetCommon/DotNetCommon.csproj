@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5CB63E00-E8FB-4729-B135-371945838B51}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DotNetCommon</RootNamespace>
+    <AssemblyName>DotNetCommon</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Caching, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libs\Microsoft.Practices.EnterpriseLibrary.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Caching\Cache.cs" />
+    <Compile Include="Caching\EntLibCache.cs" />
+    <Compile Include="Caching\ICache.cs" />
+    <Compile Include="Common\ServiceRequest.cs" />
+    <Compile Include="Extension\QueryableExtension.cs" />
+    <Compile Include="Extension\TypeExtensions.cs" />
+    <Compile Include="Helper\CryptHelper.cs" />
+    <Compile Include="Common\Singleton.cs" />
+    <Compile Include="Helper\PathUtility.cs" />
+    <Compile Include="Helper\Sort\ISort.cs" />
+    <Compile Include="Helper\Sort\MergeSort.cs" />
+    <Compile Include="Helper\Sort\QuickSort.cs" />
+    <Compile Include="Helper\HtmlHelper.cs" />
+    <Compile Include="Common\Logger.cs" />
+    <Compile Include="Common\Scope.cs" />
+    <Compile Include="Data\Extension\DataTableExtensions.cs" />
+    <Compile Include="Data\ClassHelper.cs" />
+    <Compile Include="Data\Helper\ExcelHelper.cs" />
+    <Compile Include="Extension\ArrayExtensions.cs" />
+    <Compile Include="Data\Extension\DataRecordExtensions.cs" />
+    <Compile Include="Extension\DateTimeExtensions.cs" />
+    <Compile Include="Extension\DictionaryExtensions.cs" />
+    <Compile Include="Extension\ObjectExtensions.cs" />
+    <Compile Include="Helper\ByteHelper.cs" />
+    <Compile Include="Data\Extension\DataRowExtentions.cs" />
+    <Compile Include="Extension\EnumerableExtensions.cs" />
+    <Compile Include="Extension\StringExtentions.cs" />
+    <Compile Include="Guard.cs" />
+    <Compile Include="Helper\ClassHelper.cs" />
+    <Compile Include="Helper\CommonHelper.cs" />
+    <Compile Include="Helper\ConfigHelper.cs" />
+    <Compile Include="Helper\DateTimeHelper.cs" />
+    <Compile Include="Helper\DrawingHelper.cs" />
+    <Compile Include="Helper\EncodingEx.cs" />
+    <Compile Include="Helper\EnumHelper.cs" />
+    <Compile Include="Helper\INIHelper.cs" />
+    <Compile Include="Helper\NetHelper.cs" />
+    <Compile Include="Helper\NumericHelper.cs" />
+    <Compile Include="Helper\ObjectHelper.cs" />
+    <Compile Include="Helper\RandomHelper.cs" />
+    <Compile Include="Helper\ResourceHelper.cs" />
+    <Compile Include="Helper\SerializeHelper.cs" />
+    <Compile Include="Helper\StringHelper.cs" />
+    <Compile Include="Helper\SysHelper.cs" />
+    <Compile Include="Web\Compressor\AssetHandler.cs" />
+    <Compile Include="Web\Compressor\HandlerCacheItem.cs" />
+    <Compile Include="Web\Compressor\ResourceSet.cs" />
+    <Compile Include="Web\Compressor\ResourceSettings.cs" />
+    <Compile Include="Web\HttpHelper.cs" />
+    <Compile Include="Web\MiniProfiler.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Helper\TypeHelper.cs" />
+    <Compile Include="Web\QueryBuilder.cs" />
+    <Compile Include="Web\RequestHelper.cs" />
+    <Compile Include="Web\WebCache.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Caching\illustrate.txt" />
+    <Content Include="Libs\Microsoft.Practices.EnterpriseLibrary.Caching.dll" />
+    <Content Include="Libs\Newtonsoft.Json.dll" />
+    <Content Include="Web\Compressor\illustrate.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resourcesConfig>
+  <resourceSets version="2.3.1.0" cacheDurationInDays="365" generateETag="true" compress="true">
+    <resourceSet keyName="siteCss" type="text/css">
+      <resource name="~/Styles/jquery-ui-1.8.1.custom.css" />
+      <resource name="~/Styles/Site.css" />
+    </resourceSet>
+    <resourceSet keyName="siteJs" type="application/x-javascript">
+      <resource name="~/Scripts/jquery-1.4.1.js" />
+      <resource name="~/Scripts/swfupload.js" />
+    </resourceSet>
+  </resourceSets>
+</resourcesConfig>

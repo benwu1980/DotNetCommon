@@ -1,0 +1,16 @@
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.Test\bin\Debug\DotNetCommon.Test.exe.config
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.Test\bin\Debug\DotNetCommon.Test.exe
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.Test\bin\Debug\DotNetCommon.Test.pdb
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.Test\bin\Debug\DotNetCommon.dll
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.Test\bin\Debug\nunit.framework.dll
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.Test\bin\Debug\DotNetCommon.pdb
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.Test\obj\x86\Debug\DotNetCommon.Test.exe
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.Test\obj\x86\Debug\DotNetCommon.Test.pdb
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.Test\obj\x86\Debug\DotNetCommon.Test.csprojResolveAssemblyReference.cache
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.Test\bin\Debug\log4net.dll
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.Test\bin\Debug\resourceSet.xml
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.Test\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.Test\bin\Debug\Microsoft.Practices.Unity.dll
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon.Test\bin\Debug\Microsoft.Practices.Unity.Interception.dll

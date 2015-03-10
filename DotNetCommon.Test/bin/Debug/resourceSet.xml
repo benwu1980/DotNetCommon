@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resourcesConfig>
+  <resourceSets version="2.3.1.0" cacheDurationInDays="365" generateETag="true" compress="false">
+    <resourceSet keyName="siteCss" type="text/css">
+      <resource name="~/content/Site.css" />
+      <resource name="~/content/themes/jquery-ui.css" />
+    </resourceSet>
+    <resourceSet keyName="jqueryJs" type="application/x-javascript">
+      <resource name="~/scripts/jquery.js" />
+    </resourceSet>
+    <resourceSet keyName="siteJs" type="application/x-javascript">
+      <resource name="~/scripts/jquery-1.4.4.js" />
+      <resource name="~/scripts/jquery-ui.js" />
+    </resourceSet>
+  </resourceSets>
+</resourcesConfig>

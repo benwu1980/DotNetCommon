@@ -1,0 +1,10 @@
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon\bin\Debug\DotNetCommon.dll
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon\bin\Debug\DotNetCommon.pdb
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon\obj\Debug\DotNetCommon.dll
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon\obj\Debug\DotNetCommon.pdb
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon\bin\Debug\log4net.dll
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon\bin\Debug\Microsoft.Practices.Unity.dll
+D:\workfolder\C#\Library\DotNetCommon\DotNetCommon\bin\Debug\Microsoft.Practices.Unity.Interception.dll

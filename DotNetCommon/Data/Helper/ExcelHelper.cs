@@ -1,16 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Data;
-using System.IO;
-using Excel = Microsoft.Office.Interop.Excel;
-using System.Reflection;
-using System.Collections;
-using System.Diagnostics;
 using System.Data.OleDb;
+using System.Diagnostics;
+using System.IO;
+using System.Reflection;
+using System.Text;
 using ExcelApp = Microsoft.Office.Interop.Excel;
-using DotNetCommon.Helper;
 
 
 namespace DotNetCommon.Data.Helper
